@@ -11,7 +11,7 @@ class Server {
     this.name = name
     this.ip = ip
   }
-
+  
   getUrl() {
     return `https://${this.ip}:80`
   }
