@@ -40,11 +40,11 @@ class MemberFactory {
 const factory = new MemberFactory()
 const members = [
   factory.create('Sashka', 'simple'),
-  factory.create('Sashka', 'premium'),
-  factory.create('Vasilisa ', 'standard'),
+  factory.create('Bob', 'premium'),
+  factory.create('Sashka', 'simple'),
+  factory.create('Ivan')
 ]
 
 members.forEach(item => {
   item.define()
-  
 })
